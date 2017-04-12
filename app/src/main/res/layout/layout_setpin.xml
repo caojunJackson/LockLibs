@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <Button android:id="@+id/btn_pin_create" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="create pin"
+
+    />
+
+    <Button android:id="@+id/btn_pin_update" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="update pin"
+    />
+
+    <Button android:id="@+id/btn_pin_disable" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="close pin"/>
+
+    <Button android:id="@+id/btn_pin_unlock" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="验证"
+    />
+
+
+</LinearLayout>

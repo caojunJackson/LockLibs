@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="swile_success"
+        android:viewportWidth="32"
+        android:viewportHeight="32"
+        android:width="32dp"
+        android:height="32dp">
+    <group android:name="success" android:translateY="5" android:translateX="5">
+        <path android:strokeColor="?attr/swirl_ridgeColor"
+              android:strokeAlpha="0.5"
+              android:strokeWidth="1.45"
+              android:strokeLineCap="round"
+              android:pathData="M123.5,0.0886931106 C55.3341879,0.0886931106 0.0886931106,55.3341879 0.0886931106,123.5 C0.0886931106,191.665812 55.3341879,246.911307 123.5,246.911307 C191.665812,246.911307 246.911307,191.665812 246.911307,123.5 C246.911307,55.3341879 191.665812,0.0886931106 123.5,0.0886931106 Z"/>
+        <path android:strokeColor="?attr/swirl_ridgeColor"
+              android:strokeAlpha="0.5"
+              android:strokeWidth="1.45"
+              android:strokeLineCap="round"
+              android:pathData="M110.497177,186.467983 L45.6810772,121.041344 L65.9443591,100.959574 L110.38167,145.809411 L190.857261,66.0433653 L210.939031,86.3231482z"/>
+    </group>
+</vector>

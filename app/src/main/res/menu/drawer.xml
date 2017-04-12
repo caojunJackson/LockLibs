@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/drawer_one"
+              android:icon="@drawable/ic_send_black_24dp"
+              android:title="one"
+        />
+
+        <item android:id="@+id/drawer_two"
+              android:icon="@drawable/ic_send_black_24dp"
+              android:title="two"
+        />
+
+        <item android:id="@+id/drawer_three"
+              android:icon="@drawable/ic_send_black_24dp"
+              android:title="three"
+        />
+
+    </group>
+
+
+    <item android:title="subtitle">
+
+        <menu>
+            <item android:id="@+id/drawer_gankgirl"
+                  android:icon="@drawable/ic_send_black_24dp"
+                  android:title="gankgirl"
+            />
+
+            <item android:id="@+id/drawer_jianshu"
+                  android:icon="@drawable/ic_send_black_24dp"
+                  android:title="jianshu"
+            />
+
+            <item android:id="@+id/drawer_vetx"
+                  android:icon="@drawable/ic_send_black_24dp"
+                  android:title="ve2x"
+            />
+
+        </menu>
+
+    </item>
+
+</menu>

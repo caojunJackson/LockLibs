@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="caojun.com.logintest"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER"/>
+    <uses-permission
+        android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+
+    <!-- 开启摄像头 -->
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.setParameters" android:required="false"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!-- 阅读消息 -->
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <!-- 接收消息 -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <!-- 读写⽂文件 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!-- 网络状态 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:debuggable="true"
+        android:name=".pin.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="SUPERID_APPKEY"
+            android:value="55417279a87656934dee3443"/>
+        <meta-data
+            android:name="SUPERID_SECRET"
+            android:value="9deb09f75437b07c604d7a27"/>
+
+        <activity android:name=".pin.PinActivity">
+
+        </activity>
+
+
+        <activity
+            android:name="caojun.com.logintest.pin.CustomPinActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <!--一登-->
+        <activity
+            android:name="com.isnc.facesdk.aty.Aty_FaceDetect"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.isnc.facesdk.aty.Aty_NormalFaceDetect"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.isnc.facesdk.aty.Aty_AgreeItem"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.isnc.facesdk.aty.Aty_Auth"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.isnc.facesdk.aty.Aty_EditUserinfo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.isnc.facesdk.aty.Aty_ClipPicture"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.isnc.facesdk.aty.Aty_CountryPage"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.isnc.facesdk.aty.Aty_SecureEmail"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+
+        <!--face-->
+
+        <activity android:name=".SplashActivity">
+
+        </activity>
+
+        <activity android:name=".SettingActivity"
+                  android:configChanges="orientation|screenSize"
+                  android:screenOrientation="portrait"
+        >
+
+        </activity>
+
+        <activity android:name=".face.FaceActivity"></activity>
+
+        <activity android:name=".pin.SetPinActivity">
+
+        </activity>
+
+        <activity android:name=".LoginActivity">
+
+        </activity>
+
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <activity android:name=".signature.SignaMainActivity"></activity>
+        <activity android:name=".signature.SignatureActivity"></activity>
+
+
+        <activity android:name=".test.B"/>
+
+
+        <activity
+            android:theme="@style/Theme.Swirl"
+            android:name=".finger.FingerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

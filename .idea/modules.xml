@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animtion/animtion.iml" filepath="$PROJECT_DIR$/animtion/animtion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/digestlib/digestlib.iml" filepath="$PROJECT_DIR$/digestlib/digestlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fingerprintidentify/fingerprintidentify.iml" filepath="$PROJECT_DIR$/fingerprintidentify/fingerprintidentify.iml" />
+    </modules>
+  </component>
+</project>

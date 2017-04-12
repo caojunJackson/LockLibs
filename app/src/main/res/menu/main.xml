@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_create_pin"
+          android:orderInCategory="100"
+          app:showAsAction="never"
+          android:title="create"/>
+
+    <!--<item android:id="@+id/action_disable_pin"-->
+          <!--android:orderInCategory="100"-->
+          <!--app:showAsAction="never"-->
+          <!--android:title="disable"/>-->
+
+    <item android:id="@+id/action_reset_pin"
+          android:orderInCategory="100"
+          app:showAsAction="never"
+          android:title="reset"/>
+    <!--<item android:id="@+id/action_confirm_pin"-->
+          <!--android:orderInCategory="100"-->
+          <!--app:showAsAction="never"-->
+          <!--android:title="confirm"/>-->
+
+    <item android:id="@+id/action_clear_pin"
+          android:orderInCategory="100"
+          app:showAsAction="never"
+          android:title="clear"/>
+</menu>
